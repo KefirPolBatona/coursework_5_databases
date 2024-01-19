@@ -4,7 +4,7 @@ from config import config
 
 from utils import get_employers, get_vacancies
 
-from create_database import create_database, create_table_employers, create_table_vacancies, \
+from src.create_database import create_database, create_table_employers, create_table_vacancies, \
                             insert_table_employers, insert_table_vacancies
 
 from DBManager import DBManager
